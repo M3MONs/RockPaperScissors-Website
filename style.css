@@ -41,6 +41,20 @@ header {
    transition: 0.5s transform;
 }
 
-button:hover {
+.container button:hover {
    transform: scale(1.5);
+}
+
+#restartBtn {
+   font-size: 2rem;
+   padding: 0.5rem 2rem;
+   background: green;
+   border: none;
+   border-radius: 1.5rem;
+   opacity: 0;
+   cursor: pointer;
+}
+
+.show {
+   opacity: 1 !important;
 }

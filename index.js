@@ -1,5 +1,5 @@
 var buttons = document.querySelectorAll(".player-move");
-const resultContainer = document.getElementById("result-container");
+const resultContainer = document.getElementById("resultContainer");
 const restartBtn = document.getElementById("restartBtn");
 
 let player = 0,
